@@ -1,0 +1,20 @@
+.lateralBar{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    
+}
+
+.contentArea{
+    box-sizing: border-box;
+    padding: 0 8rem;
+    
+}
+
+.contentAreaBlur{
+    box-sizing: border-box;
+    padding: 0 8rem;
+    filter: blur(10px);
+    
+}

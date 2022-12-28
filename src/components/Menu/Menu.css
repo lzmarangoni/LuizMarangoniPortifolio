@@ -1,0 +1,35 @@
+.Menu{
+    width: 100%;
+    animation: showMenu .4s;
+ 
+    
+   
+    
+}
+.MenuOptions{
+   display: flex;
+   justify-content: space-around;
+   
+   height: 100vh;
+   align-items: center;
+   
+}
+.MenuOptions h1:hover{
+    scale: 1.2;
+    transition-duration: 0.5s;
+    
+}
+
+@keyframes showMenu {
+    from{
+        opacity: 0;
+        width: 0vh;
+    }
+
+    to{
+        opacity: 100;
+        width:100%;
+        
+       
+    }
+}

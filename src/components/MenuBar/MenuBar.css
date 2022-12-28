@@ -1,0 +1,12 @@
+.MenuBar{
+    box-sizing: border-box;
+    width: 6rem;
+    height: 100vh;
+    border-right: solid .5px;
+    color: #8f8b8b;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
