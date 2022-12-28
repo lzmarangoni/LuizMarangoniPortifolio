@@ -13,7 +13,7 @@ const Menu = ()=>{
                 <h1>Projetos</h1>
                 <h1>Contato</h1>  
             </div> 
-            <AiOutlineClose id='icon'/>        
+                 
         </section>
         
     )

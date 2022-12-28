@@ -1,0 +1,15 @@
+.contact{
+    box-sizing: border-box;
+    padding: 0 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.contact input{
+    width: 40%;
+    margin: 0.5rem;
+    border-radius: 5px;
+
+}

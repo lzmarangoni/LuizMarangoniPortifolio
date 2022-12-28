@@ -1,17 +1,15 @@
 .Menu{
+    position: fixed;
+    top: 45%;
     width: 100%;
-    animation: showMenu .4s;
- 
-    
-   
-    
+    animation: showMenu .4s; 
+    z-index: 1;
 }
 .MenuOptions{
    display: flex;
    justify-content: space-around;
-   
-   height: 100vh;
    align-items: center;
+  
    
 }
 .MenuOptions h1:hover{

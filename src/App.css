@@ -1,15 +1,18 @@
+.App{
+   
+    z-index: 10;
+}
 .lateralBar{
     display: flex;
     position: fixed;
     width: 100%;
-    z-index: 1;
+   
     
 }
 
 .contentArea{
     box-sizing: border-box;
-    padding: 0 8rem;
-    
+    padding: 0 8rem; 
 }
 
 .contentAreaBlur{
