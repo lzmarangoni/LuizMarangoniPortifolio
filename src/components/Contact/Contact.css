@@ -5,11 +5,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100vh;
+    width: 40%;
+    display: flex;
+    margin: 0 auto;
+   
     
 }
-.contact input{
-    width: 40%;
-    margin: 0.5rem;
-    border-radius: 5px;
 
-}

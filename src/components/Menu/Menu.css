@@ -1,7 +1,8 @@
 .Menu{
     position: fixed;
     top: 45%;
-    width: 100%;
+    width: 90%;
+    margin-left: 6rem;
     animation: showMenu .4s; 
     z-index: 1;
 }
@@ -9,6 +10,7 @@
    display: flex;
    justify-content: space-around;
    align-items: center;
+   
   
    
 }
@@ -26,7 +28,7 @@
 
     to{
         opacity: 100;
-        width:100%;
+        width:90%;
         
        
     }

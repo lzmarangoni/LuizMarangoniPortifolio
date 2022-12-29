@@ -23,6 +23,7 @@ function App() {
     <div className="App">
         <div className='lateralBar'>
           <MenuBar onClick={change}/>
+        </div>
           {showMenu === true  ?
           <div>
             <Menu />
@@ -38,7 +39,7 @@ function App() {
             <Contact/>
           </div> 
         }
-        </div>
+        
        
         
     </div>

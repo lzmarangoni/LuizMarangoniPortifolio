@@ -1,23 +1,24 @@
 .App{
    
-    z-index: 10;
+    
 }
 .lateralBar{
     display: flex;
     position: fixed;
-    width: 100%;
-   
-    
+    width: 6rem;
+    z-index: 1;
 }
 
 .contentArea{
     box-sizing: border-box;
     padding: 0 8rem; 
+    height: 100vh;
 }
 
 .contentAreaBlur{
     box-sizing: border-box;
     padding: 0 8rem;
+    height: 100vh;
     filter: blur(10px);
     
 }
