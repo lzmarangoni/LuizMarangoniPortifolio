@@ -1,20 +1,38 @@
 .Menu{
+    display: flex;
     position: fixed;
-    top: 45%;
-    width: 90%;
+    transition: all, .3s;
+    justify-content: space-around;
+    width: 95%;
     margin-left: 6rem;
-    animation: showMenu .4s; 
     z-index: 1;
+    height: 100vh;
+    background-color: red;
+     
+  
+
 }
 .MenuOptions{
+   width: 100%;
    display: flex;
    justify-content: space-around;
    align-items: center;
-   
+   list-style: none;
+   font-size: 3rem; 
+   text-decoration: none;
+   animation: showMenu .4s;
   
-   
 }
-.MenuOptions h1:hover{
+
+.MenuOptions a{
+    text-decoration: none;
+    color: #8f8b8b;
+}
+
+
+.MenuOptions li:hover{
+  
+
     scale: 1.2;
     transition-duration: 0.5s;
     
@@ -22,14 +40,12 @@
 
 @keyframes showMenu {
     from{
-        opacity: 0;
-        width: 0vh;
+       transform: translateX(0%)
     }
 
     to{
-        opacity: 100;
-        width:90%;
-        
-       
+        transform: translateX(100%)
     }
+
+  
 }

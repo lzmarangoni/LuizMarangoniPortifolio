@@ -13,7 +13,7 @@ function App() {
 
   const change = ()=>{
       setShowMenu(!showMenu)
-      console.log(showMenu) 
+      
       
 
   }
@@ -24,21 +24,15 @@ function App() {
         <div className='lateralBar'>
           <MenuBar onClick={change}/>
         </div>
-          {showMenu === true  ?
-          <div>
-            <Menu />
-            <div className='contentAreaBlur'>
-              <Description/>
-              <Projects/> 
-              <Contact/>
-            </div> 
-          </div> :  
-            <div className='contentArea'>
-            <Description/>
-            <Projects/> 
-            <Contact/>
-          </div> 
-        }
+          {showMenu === true  && 
+          
+            <Menu /> }
+
+        <div className='contentArea'>
+              <Description />
+              <Projects /> 
+              <Contact id='contato'/>
+        </div>
         
        
         
