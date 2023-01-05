@@ -2,7 +2,7 @@ import './Menu.css'
 
 
 
-const Menu = (props)=>{
+const Menu = ()=>{
 
 
     return(
