@@ -12,11 +12,9 @@ function App() {
   const[showMenu, setShowMenu] = useState(false);
 
   const change = ()=>{
-      setShowMenu(!showMenu)
+     setShowMenu(!showMenu)
       
-      
-
-  }
+        }
 
 
   return (
@@ -29,9 +27,16 @@ function App() {
             <Menu /> }
 
         <div className='contentArea'>
+              <div id='sobre'>
               <Description />
+              </div>
+              <div id='projetos'>
               <Projects /> 
-              <Contact id='contato'/>
+              </div>
+              <Projects /> 
+              <div id='contato'>
+              <Contact />
+                </div>
         </div>
         
        
