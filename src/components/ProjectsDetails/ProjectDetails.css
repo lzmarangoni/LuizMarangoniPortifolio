@@ -1,0 +1,13 @@
+.details{
+   width: 300px;
+   margin:auto 1rem;
+   text-align: center;
+   flex: none;
+   scroll-snap-align: start;
+}
+
+.details img{
+    width: 100%;
+    height: 100%;
+}
+

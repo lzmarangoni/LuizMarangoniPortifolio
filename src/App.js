@@ -33,7 +33,7 @@ function App() {
               <div id='projetos'>
               <Projects /> 
               </div>
-              <Projects /> 
+           
               <div id='contato'>
               <Contact />
                 </div>
