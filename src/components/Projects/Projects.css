@@ -2,12 +2,16 @@
     align-items: center;
     height: 100vh;
     width: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 2rem 0;
 }
 .projects .carousel::-webkit-scrollbar{
-    display: none;
+   display: none;
 }
 .projects .carousel{
-
+    
+    scroll-behavior: smooth;
     overflow-x: auto;
     display: flex;
     width: 75vw;

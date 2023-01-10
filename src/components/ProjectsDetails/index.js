@@ -6,7 +6,7 @@ const ProjectDetails = (props)=>{
             <h2>{props.name}</h2>
             <img src={props.image}/>
             <p>{props.description} </p>
-            <a href={props.linkCode}>Acessar o Código</a>
+            <a href={props.linkCode}>Acessar o Código</a><br/>
             <a href={props.linkApp}>Acessar a aplicação</a>
             
            
